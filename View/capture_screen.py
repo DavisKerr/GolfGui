@@ -44,7 +44,7 @@ class Capture_Screen:
         self.submit_btn = Button(self.window, text="Submit Selection")
         self.btnFile = Button(self.window, text="File", command=self.load_video)
 
-        self.btnFile.grid(row=0, column=0)
+        self.btnFile.grid(row=0, column=1)
         self.title.grid(row=1, column=3)
         self.video_display.grid(row=1, column=1, rowspan=3, columnspan=5)
         self.play_btn.grid(row=6, column=2)
